@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Historys Extension",
+    "version": "1.0.0",
+    "description": "A history extension for Chrome",
+
+    "action": {
+    "default_icon": "images/history.png",
+    "default_popup": "index.html"
+  },
+ 
+  "permissions": [ 
+    "activeTab",
+    "scripting",
+    "storage",  
+    "history",  
+    "tabs", 
+    "webRequest", 
+    "webNavigation"
+  ],
+
+  "host_permissions": [
+    "<all_urls>",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
+  
